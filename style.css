@@ -462,6 +462,14 @@ p {
     font-size: 0.9rem;
 }
 
+.glass-footer p.easter-egg {
+    font-family: system-ui, -apple-system, sans-serif;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 0.5rem;
+    font-weight: 400;
+}
+
 /* Animations */
 .reveal {
     opacity: 0;
