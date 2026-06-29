@@ -28,7 +28,7 @@ body {
     color: var(--text-color);
     line-height: 1.6;
     overflow-x: hidden;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 h1, h2, h3, h4, .logo, .badge, .metric {
@@ -66,7 +66,7 @@ p {
 }
 
 .highlight-text {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: #e2e8f0;
     font-weight: 400;
     text-align: center;
