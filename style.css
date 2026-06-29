@@ -332,6 +332,14 @@ p {
     stroke-width: 1.5px;
 }
 
+.icon-wrapper img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
 /* Comparison Table */
 .comparison-table-wrapper {
     overflow-x: auto;
