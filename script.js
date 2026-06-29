@@ -48,3 +48,14 @@ cards.forEach(card => {
         card.style.setProperty('--mouse-y', `${y}px`);
     });
 });
+
+// Forward mouse movements to the background brain iframe
+window.addEventListener('mousemove', (e) => {
+    if (heroBg && heroBg.contentWindow) {
+        heroBg.contentWindow.postMessage({
+            type: 'mousemove',
+            clientX: e.clientX,
+            clientY: e.clientY
+        }, '*');
+    }
+});
